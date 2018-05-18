@@ -1,0 +1,90 @@
+/* color palette
+#0A2342 - Oxford blue
+#2CA58D - jungle green
+#84BC9C - dark sea green
+#FFFDF7 - baby powder
+#F46197 - light crimson */
+
+/* global styles
+---------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+margin:0;
+}
+h1, h2 {
+  font-family: 'Caveat Brush', cursive;
+  font-weight:400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top:0;
+}
+a {
+  color: #F46197;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+
+
+/* header and footer
+----------------------*/
+header, footer {
+  background: #0A2342;
+  color: #84BC9C;
+}
+/* header */
+.profile-img {
+    border-radius: 50%;
+  }
+
+header h1, header h2 {
+  color: #FFFDF7;
+  margin: 0;
+}
+/* footer */
+footer {
+    text-align:center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+/* work experience
+---------------------*/
+.work {
+background: #2CA58D;
+}
+
+/* Education
+---------------------*/
+.education {
+  background: #84BC9C;
+}
