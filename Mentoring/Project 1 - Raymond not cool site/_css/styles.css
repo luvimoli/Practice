@@ -1,0 +1,24 @@
+/*stylesheet for Raymont is not cool site */
+
+/* Global styles
+-----------------------*/
+html, body {
+  background: #0A2342; /* Oxford blue */
+  margin: 0;
+}
+/* this below is the box model fix -- to add or not to add? ca cest la question
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+---------------------------*/
+body {
+  font-family: Arial, sans-serif;
+}
+/*header and footer
+--------------------------------*/
+
+/* header */
+.about {
+  background: white;
+  display: inline-block;
+}
