@@ -13,12 +13,21 @@ html, body {
 ---------------------------*/
 body {
   font-family: Arial, sans-serif;
+  color: white;
 }
 /*header and footer
 --------------------------------*/
 
-/* header */
-.about {
-  background: white;
+/* Navigation
+---------------------*/
+nav {
+  text-align: right;
+}
+nav a {
   display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
 }
