@@ -15,8 +15,25 @@ body {
   font-family: Arial, sans-serif;
   color: white;
 }
-/*header and footer
---------------------------------*/
+.article-container {
+  position: relative;
+  border: 5px solid white;
+}
+.article-title {
+  position: absolute;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/*.float-left {
+  float: clear-left;
+}
+.float-right {
+  float: clear-right;
+}
+img {
+  width: 50%;
+} */
 
 /* Navigation
 ---------------------*/
