@@ -16,29 +16,35 @@ body {
   color: white;
 }
 .article-container {
-  position: relative;
   border: 5px solid white;
+  height: 300px;
+  max-width: device-width;
+  margin-top: 20 px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 .article-title {
   position: absolute;
   text-align: left;
   text-transform: uppercase;
 }
-
-/*.float-left {
-  float: clear-left;
+/*----
+float-left {
+  float: left;
 }
 .float-right {
-  float: clear-right;
+  float: right;
 }
+----*/
 img {
-  width: 50%;
-} */
+  object-fit:cover;
+}
 
 /* Navigation
 ---------------------*/
 nav {
   text-align: right;
+  padding-bottom: 25px;
 }
 nav a {
   display: inline-block;
