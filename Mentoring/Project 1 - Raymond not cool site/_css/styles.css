@@ -15,10 +15,18 @@ body {
   font-family: Arial, sans-serif;
   color: white;
 }
-.article-container {
+.article-container-wide {
   border: 5px solid white;
-  height: 300px;
+  height: 350px;
   max-width: device-width;
+  margin-top: 20 px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.article-container-narrow {
+  border: 5px solid white;
+  height: 350px;
+  max-width: 50%;
   margin-top: 20 px;
   margin-bottom: 20px;
   overflow: hidden;
