@@ -15,11 +15,13 @@ html, body {
   margin: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
-/*  background: #bfc0c0; */
+.site-body {
   max-width: 80%;
   margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
 }
 
 img {
@@ -34,8 +36,6 @@ img {
 nav {
   color: #FFFFFF;
   background: #4f5d75;
-  position: absolute;
-  width: 80%;
   top: 0;
 }
 
